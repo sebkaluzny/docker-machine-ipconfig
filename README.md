@@ -1,5 +1,5 @@
 # docker-machine-ipconfig
-Allows one to manipulate docker-machine network interface settings.
+Allows one to toggle between static and DHCP docker-machine network interface settings.
 
 This is helpful when running a local docker swarm and you need to have your docker machine VMs maintain static IP addresses.
 
