@@ -9,7 +9,7 @@ Works for Mac OS x and Cygwin docker clients. Probably works on Linux, but hasn'
 Place the `docker-machine-ipconfig` script on your path in whatever manner you see fit.
 
 # Usage
-Warning: This will stomp on and/or delete an existing `/var/lib/boot2docker/bootsync.sh` file. There are no checks at the moment to prevent adverse behavior. Use responsibly. Any pull requests to address this are welcome :)
+**Warning:** Using this script to modify your machine configuration will stomp on and/or delete an existing `/var/lib/boot2docker/bootsync.sh` file. There are no checks at the moment to prevent adverse behavior. Use responsibly. Any pull requests to address this are welcome :)
 
 ## List running docker-machines' ip addresses
 ```
