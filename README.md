@@ -3,11 +3,12 @@ Allows one to manipulate docker-machine network interface settings.
 
 This is helpful when running a local docker swarm and you need to have your docker machine VMs maintain static IP addresses.
 
+Works for Mac OS x and Cygwin hosts (docker clients). Probably works on Linux, but hasn't been tested there yet.
+
 # Installation
 Place the `docker-machine-ipconfig` script on your path in whatever manner you see fit.
 
 # Usage
-
 ## List running docker-machines' ip addresses
 ```
 $ docker-machine-ipconfig ls
