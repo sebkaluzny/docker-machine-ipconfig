@@ -71,4 +71,4 @@ $ docker-machine-ipconfig hosts
 
 ## Thanks
 
-Thanks to @micheletedeschi and all the other helpful participants in the docker-machine [issue thread 1709](https://github.com/docker/machine/issues/1709)
+Thanks to [@micheletedeschi](https://github.com/micheletedeschi) and all the other helpful participants in the docker-machine [issue thread 1709](https://github.com/docker/machine/issues/1709)
