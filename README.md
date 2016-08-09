@@ -68,3 +68,7 @@ $ docker-machine-ipconfig hosts
 192.168.99.102       fivestars
 192.168.99.103       loyalty
 ```
+
+## Thanks
+
+Thanks to @micheletedeschi and all the other helpful participants in the docker-machine [issue thread 1709](https://github.com/docker/machine/issues/1709)
