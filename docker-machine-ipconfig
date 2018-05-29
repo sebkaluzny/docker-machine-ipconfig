@@ -63,10 +63,10 @@ cat <<EOF | docker-machine ssh $machine "sudo tee /var/lib/boot2docker/bootsync.
 # IP=$ip
 
 # Stop the DHCP service for our host-only inteface
-[[ -f /var/run/udhcpc.eth1.pid ]] && kill \$(cat /var/run/udhcpc.eth1.pid) 2>/dev/null || :
+[[ -f /var/run/udhcpc.eth1.pid ]] && kill $(cat /var/run/udhcpc.eth1.pid) 2>/dev/null || :
 
 # Configure the interface to use the assigned IP address as a static address
-ifconfig eth1 $ip netmask 255.255.255.0 broadcast $broadcast up
+ifconfig eth0 $ip netmask 255.255.255.0 broadcast $broadcast up
 EOF
 
         # Set the bootsync.sh file as executable
